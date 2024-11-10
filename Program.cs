@@ -1,4 +1,5 @@
 ﻿using System;
+using C_810;
 
 class Program
 {
@@ -7,54 +8,54 @@ class Program
         Console.ForegroundColor = ConsoleColor.DarkGreen;
         int userChoice;
         Console.WriteLine("Which program do you want to run?");
-        Console.WriteLine("[1] Find Min number in 20 numbers");
-        Console.WriteLine("[2] Find max number in 20 numbers");
-        Console.WriteLine("[3] Calculate the average number in 20 numbers");
-        Console.WriteLine("[4] Check Right Number in 20 numbers");
-        Console.WriteLine("[5] Calculate the factorial");
-        Console.WriteLine("[6] check number length");
-        Console.WriteLine("[7] Reverse Your Number");
-        Console.WriteLine("[8] check is first number");
-        Console.WriteLine("[9] print first numbers between 1 - 1000");
-        Console.WriteLine("[10] print qarine numbers between 1000 - 9999");
-        Console.WriteLine("[11] print sum numbers :|");
+        Console.WriteLine("[1] delete a number from array");
+        Console.WriteLine("[2] copy array");
+        Console.WriteLine("[3] replace a number in array");
+        Console.WriteLine("[4] print duplicate numbers in array");
+        Console.WriteLine("[5] print duplicate numbers in two array");
+        Console.WriteLine("[6] delete duplicate numbers in a array");
+        Console.WriteLine("[7] check equal two array");
+        Console.WriteLine("[8] move zero to last index");
+        Console.WriteLine("[9] shift array");
+        Console.WriteLine("[10] sort array");
+        // Console.WriteLine("[11] print sum numbers :|");
         Console.Write("\n Enter Your Choice: ");
         userChoice = Convert.ToInt32(Console.ReadLine());
         Console.ForegroundColor = ConsoleColor.Blue;
         switch (userChoice)
         {
             case 1:
-                MinNumber.min();
+                Task817.DeleteNumberFromArray();
                 break;
             case 2:
-                MaxNumber.max();
+                Task817.CopyArray();
                 break;
             case 3:
-                avgNumber.avg();
+                Task817.ReplaceNumberInArray();
                 break;
             case 4:
-                rightIsFive.rightNumberIsFive();
+                Task817.PrintDuplicateNumbers();
                 break;
             case 5:
-                Fact.factFunc();
+                Task817.PrintDuplicateNumbersInTwoArray();
                 break;
             case 6:
-                checkLength.lengthFunc();
+                Task817.DeleteDuplicateNumberOfArray();
                 break;
             case 7:
-                reverseNumber.reverseNumberFunc();
+                Task817.CheckEqualTwoArray();
                 break;
             case 8:
-                firstNumber.firstNumberFunc();
+                Task817.MoveZero();
                 break;
             case 9:
-                printFirstNumbers.printFirstNumbersFunc();
+                Task817.shiftArray();
                 break;
             case 10:
-                Qarine.QarineFunc();
+                Task817.sortArray();
                 break;
             case 11:
-                lastTask.lastTaskFunc();
+                // Task817.lastTaskFunc();
                 break;
             default:
                 Console.ForegroundColor = ConsoleColor.Red;

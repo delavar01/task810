@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Project\\Uni\\C#810\\C#810.csproj": {}
+    "H:\\Project\\Uni\\C#817\\C#810.csproj": {}
   },
   "projects": {
-    "H:\\Project\\Uni\\C#810\\C#810.csproj": {
+    "H:\\Project\\Uni\\C#817\\C#810.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Project\\Uni\\C#810\\C#810.csproj",
+        "projectUniqueName": "H:\\Project\\Uni\\C#817\\C#810.csproj",
         "projectName": "C#810",
-        "projectPath": "H:\\Project\\Uni\\C#810\\C#810.csproj",
+        "projectPath": "H:\\Project\\Uni\\C#817\\C#810.csproj",
         "packagesPath": "C:\\Users\\USER 1\\.nuget\\packages\\",
-        "outputPath": "H:\\Project\\Uni\\C#810\\obj\\",
+        "outputPath": "H:\\Project\\Uni\\C#817\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
